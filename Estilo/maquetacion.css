@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+   width: 1200px;
+   height: 1000px; 
+   background: #d8d8d8;
+   margin: 1em auto;
+   padding: 0,5em;
+}
+
+#header{
+    height: 20%;
+    background-size: cover;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#nav {
+    height: 5%;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#contenido {
+    height: 60%;
+    margin: 1em;  
+}
+
+#footer{
+    height: 5%;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+#section{
+    height: 100%;
+    width: 71%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    float: left;
+    margin: 0,5em;
+}
+#aside{
+    height: 100%;
+    width: 25%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    float: right;
+    margin: 0,5em;
+}
+.caja{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+height: 91%;
+width: 95%;
+font-size: 18px; 
+font-weight: 400; 
+text-align: justify; 
+background: #889ccf; 
+margin: 0,3em; 
+overflow: hidden; 
+padding: 10px; 
+border-radius: 1em; 
+border: 2px solid #5878ca;
+margin: 1em auto;
+}
+
+.pie{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    height: 91%;
+    width: 95%;
+    border-radius: 1em; 
+    background: #424242;
+    font-size: 18px; 
+    font-weight: 400; 
+    margin: 1em;
+    padding: 1px;
+}
+.frase{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    height: 40%;
+    width: 91%;
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: justify; 
+    background: #424242; 
+    margin: 0,3em; 
+    overflow: hidden; 
+    padding: 1px; 
+    border-radius: 1em; 
+    border: 2px solid #5878ca;
+    margin: 1em auto;
+}
+.menu{
+    border-radius: 1em;
+
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: red;
+      }
